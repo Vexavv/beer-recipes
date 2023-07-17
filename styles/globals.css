@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+.head_text {
+    @apply mt-5 text-2xl font-extrabold leading-[1.15] text-black lg:text-5xl font-mono ;
+}
+.feed {
+    @apply mt-16 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2 border rounded;
+}
+.card{
+    @apply bg-gray-500 justify-center items-center m-8 px-2 flex flex-col lg:flex-row;
+}
+.card_text{
+    @apply text-amber-100 text-sm lg:text-lg;
+}
+.page_text{
+    @apply font-medium md:text-2xl py-1 md:py-2;
+}
+.page_title{
+    @apply text-center text-xl lg:text-3xl mb-1 text-sky-500;
+}
+.page_subTitle{
+    @apply text-xl lg:text-3xl font-medium my-1 underline;
+}
+
+
+
+
